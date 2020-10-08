@@ -1,0 +1,37 @@
+﻿@model UselessCMS.Models.Sections.CharacterStringSectionViewModel
+
+<div class="card">
+    <div class="card-header">
+        @Model.Title
+        <form asp-controller="Character" asp-action="AddStringEntry" enctype="multipart/form-data" method="get" role="form">
+            <input name="entryType" value="@Model.StringEntryType" type="hidden" />
+            <input name="id" value="@Model.CharacterId" type="hidden" />
+            <input name="text" type="text" />
+            <button type="submit" class="btn btn-success"><i class="fas fa-fw fa-check"></i></button>
+        </form>
+    </div>
+    <div class="card-body">
+        <h4 class="card-text">
+            <ul>
+                @foreach (var stringVal in Model.Values)
+                {
+                <li>
+                    @if (stringVal.UserCreated)
+                    {
+                        var href = stringVal.UserSelected ? 
+                                        Url.Action("RemoveStringEntryVote","Character", new { entryType=Model.StringEntryType, id=Model.CharacterId, entryId=stringVal.ID })
+                                        : Url.Action("AddStringEntryVote","Character", new { entryType=Model.StringEntryType, id=Model.CharacterId, entryId=stringVal.ID });
+
+                        <a class="btn @(stringVal.UserSelected ? "btn-danger" : "btn-success")" href="@href"><i class="fas @(stringVal.UserSelected ? "fa-check" : "fa-plus") fa-fw"></i> @stringVal.ValueCount</a>
+                    }
+                    @stringVal.Text
+                    @if (stringVal.UserCreated)
+                    {
+                        <a href="@Url.Action("RemoveStringEntry","Character", new { entryType=Model.StringEntryType, id=Model.CharacterId, entryId=stringVal.ID })"><i class="fas fa-times-circle fa-fw"></i></a>
+                    }
+                </li>
+                }
+            </ul>
+        </h4>
+    </div>
+</div>

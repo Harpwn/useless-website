@@ -1,0 +1,5805 @@
+{
+  "UselessCore.dll": {
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Web\\Validation\\ValidateFileAttribute.cs": {
+      "UselessCore.Web.Validation.ValidateFileAttribute": {
+        "System.Boolean UselessCore.Web.Validation.ValidateFileAttribute::IsValid(System.Object)": {
+          "Lines": {
+            "15": 5,
+            "16": 5,
+            "17": 1,
+            "19": 4,
+            "20": 4,
+            "21": 1,
+            "22": 1,
+            "25": 3,
+            "26": 1,
+            "27": 1,
+            "31": 2,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "37": 2,
+            "40": 0,
+            "41": 0,
+            "42": 5
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 7,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 20,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 29,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 25,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 54,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 37,
+              "Offset": 111,
+              "EndOffset": 113,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 111,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Service.cs": {
+      "UselessCore.Services.Service": {
+        "System.Void UselessCore.Services.Service::.ctor(UselessCore.Model.UselessContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper)": {
+          "Lines": {
+            "16": 86,
+            "17": 86,
+            "18": 86,
+            "19": 86,
+            "20": 86,
+            "21": 86
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\ServiceActionResult.cs": {
+      "UselessCore.Services.ServiceActionResult": {
+        "System.Boolean UselessCore.Services.ServiceActionResult::get_Succeeded()": {
+          "Lines": {
+            "29": 80
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<System.String> UselessCore.Services.ServiceActionResult::get_Errors()": {
+          "Lines": {
+            "30": 59
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.ServiceActionResult::GetErrorsMessage()": {
+          "Lines": {
+            "33": 4,
+            "34": 4,
+            "35": 2,
+            "36": 2,
+            "37": 1,
+            "38": 1,
+            "41": 1,
+            "42": 1,
+            "45": 2,
+            "46": 4
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 47,
+              "EndOffset": 64,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 28,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void UselessCore.Services.ServiceActionResult::.ctor(System.String)": {
+          "Lines": {
+            "12": 19,
+            "13": 19,
+            "14": 19,
+            "15": 19,
+            "16": 19
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.ServiceActionResult::.ctor(Microsoft.AspNetCore.Identity.IdentityResult)": {
+          "Lines": {
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 3
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 63,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 39,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void UselessCore.Services.ServiceActionResult::.ctor()": {
+          "Lines": {
+            "27": 21
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\UserActionResult.cs": {
+      "UselessCore.Services.Users.UserActionResult": {
+        "UselessCore.Services.Users.Dtos.UserDto UselessCore.Services.Users.UserActionResult::get_User()": {
+          "Lines": {
+            "24": 7
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Users.UserActionResult::.ctor(UselessCore.Services.Users.Dtos.UserDto,Microsoft.AspNetCore.Identity.IdentityResult)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Users.UserActionResult::.ctor(System.String)": {
+          "Lines": {
+            "17": 36
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Users.UserActionResult::.ctor(UselessCore.Services.Users.Dtos.UserDto)": {
+          "Lines": {
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\UserService.cs": {
+      "UselessCore.Services.Users.UserService": {
+        "System.Void UselessCore.Services.Users.UserService::.ctor(UselessCore.Model.UselessContext,Microsoft.AspNetCore.Identity.UserManager`1<UselessCore.Model.Users.User>,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper)": {
+          "Lines": {
+            "19": 17,
+            "20": 17,
+            "21": 17,
+            "22": 17
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Users.UserService/<AuthenticateAsync>d__2": {
+        "System.Void UselessCore.Services.Users.UserService/<AuthenticateAsync>d__2::MoveNext()": {
+          "Lines": {
+            "25": 7,
+            "26": 7,
+            "27": 4,
+            "29": 3,
+            "30": 3,
+            "31": 1,
+            "33": 2,
+            "34": 2,
+            "35": 1,
+            "38": 1,
+            "39": 7
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 26,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5
+            },
+            {
+              "Line": 26,
+              "Offset": 45,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 26,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 26,
+              "Offset": 68,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 30,
+              "Offset": 241,
+              "EndOffset": 243,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 241,
+              "EndOffset": 259,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 25,
+              "Offset": 14,
+              "EndOffset": 349,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 416,
+              "EndOffset": 418,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 416,
+              "EndOffset": 431,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Users.UserService/<CreateAsync>d__3": {
+        "System.Void UselessCore.Services.Users.UserService/<CreateAsync>d__3::MoveNext()": {
+          "Lines": {
+            "42": 6,
+            "43": 6,
+            "44": 4,
+            "46": 2,
+            "47": 2,
+            "48": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "56": 1,
+            "57": 6
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 43,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 43,
+              "Offset": 45,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 43,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 43,
+              "Offset": 68,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 47,
+              "Offset": 241,
+              "EndOffset": 243,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 47,
+              "Offset": 241,
+              "EndOffset": 280,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 14,
+              "EndOffset": 405,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Users.UserService/<UpdateAsync>d__4": {
+        "System.Void UselessCore.Services.Users.UserService/<UpdateAsync>d__4::MoveNext()": {
+          "Lines": {
+            "60": 6,
+            "61": 6,
+            "62": 2,
+            "64": 4,
+            "66": 4,
+            "67": 1,
+            "69": 3,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 0,
+            "75": 2,
+            "76": 2,
+            "77": 2,
+            "78": 1,
+            "79": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "89": 1,
+            "90": 6
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 61,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5
+            },
+            {
+              "Line": 61,
+              "Offset": 78,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 106,
+              "EndOffset": 124,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            },
+            {
+              "Line": 66,
+              "Offset": 284,
+              "EndOffset": 286,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 66,
+              "Offset": 284,
+              "EndOffset": 302,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 69,
+              "Offset": 338,
+              "EndOffset": 343,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 495,
+              "EndOffset": 497,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 495,
+              "EndOffset": 539,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 338,
+              "EndOffset": 540,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 75,
+              "Offset": 576,
+              "EndOffset": 581,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 77,
+              "Offset": 728,
+              "EndOffset": 730,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 77,
+              "Offset": 728,
+              "EndOffset": 772,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 576,
+              "EndOffset": 773,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 14,
+              "EndOffset": 964,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Users.UserService/<DeleteAsync>d__5": {
+        "System.Void UselessCore.Services.Users.UserService/<DeleteAsync>d__5::MoveNext()": {
+          "Lines": {
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 1,
+            "98": 1,
+            "99": 1,
+            "100": 2
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 95,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 95,
+              "Offset": 175,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 14,
+              "EndOffset": 271,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Users.UserService/<ChangePasswordAsync>d__6": {
+        "System.Void UselessCore.Services.Users.UserService/<ChangePasswordAsync>d__6::MoveNext()": {
+          "Lines": {
+            "103": 2,
+            "104": 2,
+            "106": 2,
+            "107": 1,
+            "109": 1,
+            "110": 1,
+            "111": 2
+          },
+          "Branches": [
+            {
+              "Line": 103,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 106,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 106,
+              "Offset": 180,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 103,
+              "Offset": 14,
+              "EndOffset": 298,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Users.UserService/<GetByIDAsync>d__7": {
+        "System.Void UselessCore.Services.Users.UserService/<GetByIDAsync>d__7::MoveNext()": {
+          "Lines": {
+            "114": 2,
+            "115": 2,
+            "117": 2,
+            "118": 1,
+            "120": 1,
+            "121": 2
+          },
+          "Branches": [
+            {
+              "Line": 117,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 117,
+              "Offset": 164,
+              "EndOffset": 179,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\Mappings\\UserProfile.cs": {
+      "UselessCore.Services.Users.Mappings.UserProfile": {
+        "System.Void UselessCore.Services.Users.Mappings.UserProfile::.ctor()": {
+          "Lines": {
+            "12": 91,
+            "13": 91,
+            "14": 91,
+            "15": 91
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\Dtos\\AuthUserDto.cs": {
+      "UselessCore.Services.Users.Dtos.AuthUserDto": {
+        "System.String UselessCore.Services.Users.Dtos.AuthUserDto::get_Password()": {
+          "Lines": {
+            "5": 29
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\Dtos\\BaseUserDto.cs": {
+      "UselessCore.Services.Users.Dtos.BaseUserDto": {
+        "System.String UselessCore.Services.Users.Dtos.BaseUserDto::get_Id()": {
+          "Lines": {
+            "9": 22
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Users.Dtos.BaseUserDto::get_UserName()": {
+          "Lines": {
+            "10": 50
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\Dtos\\ChangePasswordDto.cs": {
+      "UselessCore.Services.Users.Dtos.ChangePasswordDto": {
+        "System.String UselessCore.Services.Users.Dtos.ChangePasswordDto::get_NewPassword()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\Dtos\\RegisterUserDto.cs": {
+      "UselessCore.Services.Users.Dtos.RegisterUserDto": {
+        "System.String UselessCore.Services.Users.Dtos.RegisterUserDto::get_Displayname()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Users\\Dtos\\UserEditDto.cs": {
+      "UselessCore.Services.Users.Dtos.UserDto": {
+        "System.String UselessCore.Services.Users.Dtos.UserDto::get_Email()": {
+          "Lines": {
+            "5": 8
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> UselessCore.Services.Users.Dtos.UserDto::get_AvatarIconId()": {
+          "Lines": {
+            "6": 4
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Users.Dtos.UserDto::get_DisplayName()": {
+          "Lines": {
+            "7": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Tags\\TagService.cs": {
+      "UselessCore.Services.Tags.TagService": {
+        "System.Void UselessCore.Services.Tags.TagService::.ctor(UselessCore.Model.UselessContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper)": {
+          "Lines": {
+            "15": 11,
+            "16": 11,
+            "17": 11
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Tags.TagService/<GetAllAsync>d__1": {
+        "System.Void UselessCore.Services.Tags.TagService/<GetAllAsync>d__1::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Tags.TagService/<GetOrCreateTagAsync>d__2": {
+        "System.Void UselessCore.Services.Tags.TagService/<GetOrCreateTagAsync>d__2::MoveNext()": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "40": 2,
+            "41": 2
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 28,
+              "Offset": 339,
+              "EndOffset": 344,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 14,
+              "EndOffset": 495,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 339,
+              "EndOffset": 533,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Tags.TagService/<TryCreateAsync>d__3": {
+        "System.Void UselessCore.Services.Tags.TagService/<TryCreateAsync>d__3::MoveNext()": {
+          "Lines": {
+            "44": 2,
+            "45": 2,
+            "47": 2,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "56": 1,
+            "57": 1,
+            "60": 1,
+            "61": 2
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 47,
+              "Offset": 359,
+              "EndOffset": 364,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 14,
+              "EndOffset": 533,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 359,
+              "EndOffset": 584,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Tags.TagService/<TryDeleteAsync>d__4": {
+        "System.Void UselessCore.Services.Tags.TagService/<TryDeleteAsync>d__4::MoveNext()": {
+          "Lines": {
+            "64": 3,
+            "65": 3,
+            "67": 3,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "74": 2,
+            "75": 3
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 65,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 83,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 67,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 67,
+              "Offset": 191,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 219,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 64,
+              "Offset": 14,
+              "EndOffset": 333,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 219,
+              "EndOffset": 374,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Tags.TagService/<GetByIDAsync>d__5": {
+        "System.Void UselessCore.Services.Tags.TagService/<GetByIDAsync>d__5::MoveNext()": {
+          "Lines": {
+            "78": 2,
+            "79": 2,
+            "80": 2,
+            "81": 1,
+            "83": 1,
+            "84": 2
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 72,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 80,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 80,
+              "Offset": 187,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Tags.TagService/<SearchAsync>d__6": {
+        "System.Void UselessCore.Services.Tags.TagService/<SearchAsync>d__6::MoveNext()": {
+          "Lines": {
+            "87": 1,
+            "88": 1,
+            "89": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Tags\\Mappings\\TagProfile.cs": {
+      "UselessCore.Services.Tags.Mappings.TagProfile": {
+        "System.Void UselessCore.Services.Tags.Mappings.TagProfile::.ctor()": {
+          "Lines": {
+            "12": 91,
+            "13": 91,
+            "14": 91,
+            "15": 91
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Tags\\Dtos\\TagDto.cs": {
+      "UselessCore.Services.Tags.Dtos.TagDto": {
+        "System.Int32 UselessCore.Services.Tags.Dtos.TagDto::get_Id()": {
+          "Lines": {
+            "7": 16
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Tags.Dtos.TagDto::get_Name()": {
+          "Lines": {
+            "8": 20
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Tag.TagType UselessCore.Services.Tags.Dtos.TagDto::get_Type()": {
+          "Lines": {
+            "9": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Images\\ImageService.cs": {
+      "UselessCore.Services.Images.ImageService": {
+        "System.Void UselessCore.Services.Images.ImageService::.ctor(UselessCore.Model.UselessContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper)": {
+          "Lines": {
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Images.ImageService/<GetByIDAsync>d__1": {
+        "System.Void UselessCore.Services.Images.ImageService/<GetByIDAsync>d__1::MoveNext()": {
+          "Lines": {
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 1,
+            "22": 1,
+            "23": 2
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 72,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 19,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 187,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Images\\Mappings\\ImageProfile.cs": {
+      "UselessCore.Services.Images.Mappings.ImageProfile": {
+        "System.Void UselessCore.Services.Images.Mappings.ImageProfile::.ctor()": {
+          "Lines": {
+            "12": 91,
+            "13": 91,
+            "14": 91,
+            "15": 91
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Images\\Dtos\\ImageDto.cs": {
+      "UselessCore.Services.Images.Dtos.ImageDto": {
+        "System.Int32 UselessCore.Services.Images.Dtos.ImageDto::get_Id()": {
+          "Lines": {
+            "9": 4
+          },
+          "Branches": []
+        },
+        "System.Byte[] UselessCore.Services.Images.Dtos.ImageDto::get_File()": {
+          "Lines": {
+            "10": 9
+          },
+          "Branches": []
+        },
+        "System.DateTime UselessCore.Services.Images.Dtos.ImageDto::get_LastModified()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Games\\GameService.cs": {
+      "UselessCore.Services.Games.GameService": {
+        "System.Void UselessCore.Services.Games.GameService::.ctor(UselessCore.Model.UselessContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper)": {
+          "Lines": {
+            "18": 14,
+            "19": 14,
+            "21": 14
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Games.GameService/<AddAsync>d__1": {
+        "System.Void UselessCore.Services.Games.GameService/<AddAsync>d__1::MoveNext()": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "31": 2,
+            "32": 1,
+            "34": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 76,
+              "EndOffset": 99,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 102,
+              "EndOffset": 104,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 102,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Games.GameService/<EditAsync>d__2": {
+        "System.Void UselessCore.Services.Games.GameService/<EditAsync>d__2::MoveNext()": {
+          "Lines": {
+            "41": 2,
+            "42": 2,
+            "43": 2,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "49": 1,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 1,
+            "56": 1,
+            "57": 0,
+            "58": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "64": 1,
+            "65": 2
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 42,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 88,
+              "EndOffset": 158,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 43,
+              "Offset": 203,
+              "EndOffset": 208,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 49,
+              "Offset": 290,
+              "EndOffset": 292,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 316,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 316,
+              "EndOffset": 322,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 328,
+              "EndOffset": 330,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 328,
+              "EndOffset": 332,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 361,
+              "EndOffset": 363,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 361,
+              "EndOffset": 382,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 290,
+              "EndOffset": 396,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 56,
+              "Offset": 408,
+              "EndOffset": 410,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 408,
+              "EndOffset": 431,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 56,
+              "Offset": 436,
+              "EndOffset": 438,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 436,
+              "EndOffset": 478,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 14,
+              "EndOffset": 582,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 203,
+              "EndOffset": 623,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Games.GameService/<DeleteAsync>d__3": {
+        "System.Void UselessCore.Services.Games.GameService/<DeleteAsync>d__3::MoveNext()": {
+          "Lines": {
+            "68": 3,
+            "69": 3,
+            "71": 3,
+            "72": 1,
+            "74": 1,
+            "75": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "81": 2,
+            "82": 3
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 69,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 83,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 219,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 74,
+              "Offset": 243,
+              "EndOffset": 245,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 74,
+              "Offset": 243,
+              "EndOffset": 273,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 14,
+              "EndOffset": 376,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 219,
+              "EndOffset": 417,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Games.GameService/<GetAllAsync>d__4": {
+        "System.Void UselessCore.Services.Games.GameService/<GetAllAsync>d__4::MoveNext()": {
+          "Lines": {
+            "85": 2,
+            "86": 2,
+            "87": 2,
+            "88": 2,
+            "89": 2
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Games.GameService/<GetLogoAsync>d__5": {
+        "System.Void UselessCore.Services.Games.GameService/<GetLogoAsync>d__5::MoveNext()": {
+          "Lines": {
+            "92": 3,
+            "93": 3,
+            "95": 3,
+            "96": 1,
+            "98": 2,
+            "99": 3
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 72,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 95,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 95,
+              "Offset": 187,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Games.GameService/<GetByIdAsync>d__6": {
+        "System.Void UselessCore.Services.Games.GameService/<GetByIdAsync>d__6::MoveNext()": {
+          "Lines": {
+            "102": 2,
+            "103": 2,
+            "105": 2,
+            "106": 1,
+            "108": 1,
+            "109": 2
+          },
+          "Branches": [
+            {
+              "Line": 103,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 72,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 105,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 105,
+              "Offset": 187,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Games\\Mappings\\GameProfile.cs": {
+      "UselessCore.Services.Games.Mappings.GameProfile": {
+        "System.Void UselessCore.Services.Games.Mappings.GameProfile::.ctor()": {
+          "Lines": {
+            "12": 91,
+            "13": 91,
+            "14": 91,
+            "15": 91,
+            "16": 91
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Games\\Dtos\\GameDetailsDto.cs": {
+      "UselessCore.Services.Games.Dtos.GameDetailsDto": {
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Services.Characters.Dtos.CharacterDto> UselessCore.Services.Games.Dtos.GameDetailsDto::get_Characters()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Games\\Dtos\\GameDto.cs": {
+      "UselessCore.Services.Games.Dtos.GameDto": {
+        "System.Int32 UselessCore.Services.Games.Dtos.GameDto::get_Id()": {
+          "Lines": {
+            "10": 15
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Games.Dtos.GameDto::get_Name()": {
+          "Lines": {
+            "11": 17
+          },
+          "Branches": []
+        },
+        "UselessCore.Services.Images.Dtos.ImageDto UselessCore.Services.Games.Dtos.GameDto::get_GameLogo()": {
+          "Lines": {
+            "12": 16
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.EntityStatus UselessCore.Services.Games.Dtos.GameDto::get_Status()": {
+          "Lines": {
+            "13": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\EntryService.cs": {
+      "UselessCore.Services.Entries.EntryService": {
+        "System.Void UselessCore.Services.Entries.EntryService::.ctor(UselessCore.Model.UselessContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,UselessCore.Services.Tags.ITagService,AutoMapper.IMapper)": {
+          "Lines": {
+            "24": 27,
+            "25": 27,
+            "26": 27,
+            "27": 27
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass2_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass2_0::<AddReplaceCharacterLinkEntryAsync>b__0(UselessCore.Model.Entries.CharacterLinkEntry)": {
+          "Lines": {
+            "38": 5
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 12,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 36,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<AddReplaceCharacterLinkEntryAsync>d__2": {
+        "System.Void UselessCore.Services.Entries.EntryService/<AddReplaceCharacterLinkEntryAsync>d__2::MoveNext()": {
+          "Lines": {
+            "30": 8,
+            "31": 8,
+            "32": 8,
+            "33": 8,
+            "35": 8,
+            "36": 4,
+            "39": 4,
+            "40": 1,
+            "42": 4,
+            "43": 4,
+            "44": 4,
+            "45": 4,
+            "46": 4,
+            "47": 4,
+            "48": 4,
+            "49": 4,
+            "50": 4,
+            "51": 4,
+            "52": 8
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 137,
+              "EndOffset": 139,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 137,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 32,
+              "Offset": 297,
+              "EndOffset": 299,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 297,
+              "EndOffset": 369,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            },
+            {
+              "Line": 33,
+              "Offset": 460,
+              "EndOffset": 462,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 460,
+              "EndOffset": 532,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 8
+            },
+            {
+              "Line": 35,
+              "Offset": 580,
+              "EndOffset": 582,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 7
+            },
+            {
+              "Line": 35,
+              "Offset": 588,
+              "EndOffset": 590,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 6
+            },
+            {
+              "Line": 35,
+              "Offset": 601,
+              "EndOffset": 603,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 5
+            },
+            {
+              "Line": 35,
+              "Offset": 615,
+              "EndOffset": 617,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 4
+            },
+            {
+              "Line": 35,
+              "Offset": 615,
+              "EndOffset": 651,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 580,
+              "EndOffset": 654,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 35,
+              "Offset": 588,
+              "EndOffset": 654,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 35,
+              "Offset": 601,
+              "EndOffset": 654,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            },
+            {
+              "Line": 35,
+              "Offset": 659,
+              "EndOffset": 661,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 4
+            },
+            {
+              "Line": 35,
+              "Offset": 659,
+              "EndOffset": 668,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 4
+            },
+            {
+              "Line": 39,
+              "Offset": 720,
+              "EndOffset": 722,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 720,
+              "EndOffset": 745,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 4
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass3_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass3_0::<AddReplaceCharacterTagEntryAsync>b__0(UselessCore.Model.Entries.CharacterTagEntry)": {
+          "Lines": {
+            "63": 4
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 63,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 63,
+              "Offset": 12,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 36,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<AddReplaceCharacterTagEntryAsync>d__3": {
+        "System.Void UselessCore.Services.Entries.EntryService/<AddReplaceCharacterTagEntryAsync>d__3::MoveNext()": {
+          "Lines": {
+            "55": 5,
+            "56": 5,
+            "57": 5,
+            "58": 5,
+            "60": 5,
+            "61": 2,
+            "64": 3,
+            "65": 1,
+            "67": 3,
+            "68": 3,
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 3,
+            "75": 3,
+            "76": 3,
+            "77": 5
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 137,
+              "EndOffset": 139,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 137,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 58,
+              "Offset": 438,
+              "EndOffset": 440,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 438,
+              "EndOffset": 510,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 60,
+              "Offset": 558,
+              "EndOffset": 560,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 60,
+              "Offset": 566,
+              "EndOffset": 568,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 60,
+              "Offset": 558,
+              "EndOffset": 584,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 566,
+              "EndOffset": 584,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 589,
+              "EndOffset": 591,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 589,
+              "EndOffset": 598,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 64,
+              "Offset": 650,
+              "EndOffset": 652,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 64,
+              "Offset": 650,
+              "EndOffset": 675,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass4_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass4_0::<AddReplaceCharacterValueEntryAsync>b__0(UselessCore.Model.Entries.CharacterValueEntry)": {
+          "Lines": {
+            "87": 4
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 12,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<AddReplaceCharacterValueEntryAsync>d__4": {
+        "System.Void UselessCore.Services.Entries.EntryService/<AddReplaceCharacterValueEntryAsync>d__4::MoveNext()": {
+          "Lines": {
+            "80": 5,
+            "81": 5,
+            "82": 5,
+            "84": 5,
+            "85": 2,
+            "88": 3,
+            "89": 1,
+            "91": 3,
+            "92": 3,
+            "93": 3,
+            "94": 3,
+            "95": 3,
+            "96": 3,
+            "97": 3,
+            "98": 3,
+            "99": 3,
+            "100": 3,
+            "101": 5
+          },
+          "Branches": [
+            {
+              "Line": 81,
+              "Offset": 128,
+              "EndOffset": 130,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 128,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 82,
+              "Offset": 284,
+              "EndOffset": 286,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 284,
+              "EndOffset": 356,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 84,
+              "Offset": 404,
+              "EndOffset": 406,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 84,
+              "Offset": 404,
+              "EndOffset": 417,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 84,
+              "Offset": 422,
+              "EndOffset": 424,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 84,
+              "Offset": 422,
+              "EndOffset": 431,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 88,
+              "Offset": 483,
+              "EndOffset": 485,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 88,
+              "Offset": 483,
+              "EndOffset": 508,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass5_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass5_0::<AddReplaceCharacterStringEntryAsync>b__0(UselessCore.Model.Entries.CharacterStringEntry)": {
+          "Lines": {
+            "111": 4
+          },
+          "Branches": [
+            {
+              "Line": 111,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 111,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 111,
+              "Offset": 12,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 31,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<AddReplaceCharacterStringEntryAsync>d__5": {
+        "System.Void UselessCore.Services.Entries.EntryService/<AddReplaceCharacterStringEntryAsync>d__5::MoveNext()": {
+          "Lines": {
+            "104": 5,
+            "105": 5,
+            "106": 5,
+            "108": 5,
+            "109": 2,
+            "112": 3,
+            "113": 1,
+            "115": 3,
+            "116": 3,
+            "117": 3,
+            "118": 3,
+            "119": 3,
+            "120": 3,
+            "121": 3,
+            "122": 3,
+            "123": 3,
+            "124": 3,
+            "125": 5
+          },
+          "Branches": [
+            {
+              "Line": 105,
+              "Offset": 145,
+              "EndOffset": 147,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 145,
+              "EndOffset": 215,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 106,
+              "Offset": 301,
+              "EndOffset": 303,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 301,
+              "EndOffset": 373,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 108,
+              "Offset": 421,
+              "EndOffset": 423,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 108,
+              "Offset": 421,
+              "EndOffset": 434,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 108,
+              "Offset": 439,
+              "EndOffset": 441,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 108,
+              "Offset": 439,
+              "EndOffset": 448,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 112,
+              "Offset": 500,
+              "EndOffset": 502,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 112,
+              "Offset": 500,
+              "EndOffset": 525,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass6_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass6_0::<AddCharacterStringEntryVoteAsync>b__0(UselessCore.Model.Entries.CharacterStringEntry)": {
+          "Lines": {
+            "131": 11
+          },
+          "Branches": [
+            {
+              "Line": 131,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 131,
+              "Offset": 12,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 435,
+              "EndOffset": 437,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 131,
+              "Offset": 435,
+              "EndOffset": 441,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass6_0::<AddCharacterStringEntryVoteAsync>b__1(UselessCore.Model.Entries.EntryVote)": {
+          "Lines": {
+            "132": 7
+          },
+          "Branches": [
+            {
+              "Line": 132,
+              "Offset": 481,
+              "EndOffset": 483,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 132,
+              "Offset": 481,
+              "EndOffset": 487,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 4
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass7_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass7_0::<RemoveCharacterLinkEntryAsync>b__0(UselessCore.Model.Entries.CharacterLinkEntry)": {
+          "Lines": {
+            "152": 3
+          },
+          "Branches": [
+            {
+              "Line": 152,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 152,
+              "Offset": 39,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<RemoveCharacterLinkEntryAsync>d__7": {
+        "System.Void UselessCore.Services.Entries.EntryService/<RemoveCharacterLinkEntryAsync>d__7::MoveNext()": {
+          "Lines": {
+            "144": 5,
+            "145": 5,
+            "146": 5,
+            "147": 5,
+            "149": 5,
+            "150": 3,
+            "154": 2,
+            "155": 1,
+            "157": 1,
+            "158": 1,
+            "159": 1,
+            "160": 1,
+            "161": 5
+          },
+          "Branches": [
+            {
+              "Line": 145,
+              "Offset": 132,
+              "EndOffset": 134,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 132,
+              "EndOffset": 202,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 146,
+              "Offset": 298,
+              "EndOffset": 300,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 298,
+              "EndOffset": 370,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 147,
+              "Offset": 461,
+              "EndOffset": 463,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 461,
+              "EndOffset": 533,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            },
+            {
+              "Line": 149,
+              "Offset": 581,
+              "EndOffset": 583,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 149,
+              "Offset": 589,
+              "EndOffset": 591,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 3
+            },
+            {
+              "Line": 149,
+              "Offset": 581,
+              "EndOffset": 607,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 149,
+              "Offset": 589,
+              "EndOffset": 607,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 149,
+              "Offset": 612,
+              "EndOffset": 614,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 3
+            },
+            {
+              "Line": 149,
+              "Offset": 612,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            },
+            {
+              "Line": 154,
+              "Offset": 673,
+              "EndOffset": 675,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 1
+            },
+            {
+              "Line": 154,
+              "Offset": 673,
+              "EndOffset": 682,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass8_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass8_0::<RemoveCharacterTagEntryAsync>b__0(UselessCore.Model.Entries.CharacterTagEntry)": {
+          "Lines": {
+            "172": 2
+          },
+          "Branches": [
+            {
+              "Line": 172,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 172,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 172,
+              "Offset": 12,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 36,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<RemoveCharacterTagEntryAsync>d__8": {
+        "System.Void UselessCore.Services.Entries.EntryService/<RemoveCharacterTagEntryAsync>d__8::MoveNext()": {
+          "Lines": {
+            "164": 4,
+            "165": 4,
+            "166": 4,
+            "167": 4,
+            "169": 4,
+            "170": 3,
+            "173": 1,
+            "174": 0,
+            "176": 1,
+            "177": 1,
+            "178": 1,
+            "179": 1,
+            "180": 1,
+            "181": 4
+          },
+          "Branches": [
+            {
+              "Line": 165,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 165,
+              "Offset": 141,
+              "EndOffset": 211,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 166,
+              "Offset": 307,
+              "EndOffset": 309,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 166,
+              "Offset": 307,
+              "EndOffset": 379,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 167,
+              "Offset": 470,
+              "EndOffset": 472,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 167,
+              "Offset": 470,
+              "EndOffset": 542,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            },
+            {
+              "Line": 169,
+              "Offset": 590,
+              "EndOffset": 592,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 169,
+              "Offset": 598,
+              "EndOffset": 600,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 169,
+              "Offset": 590,
+              "EndOffset": 616,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 169,
+              "Offset": 598,
+              "EndOffset": 616,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 169,
+              "Offset": 621,
+              "EndOffset": 623,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 3
+            },
+            {
+              "Line": 169,
+              "Offset": 621,
+              "EndOffset": 630,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 173,
+              "Offset": 682,
+              "EndOffset": 684,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 173,
+              "Offset": 682,
+              "EndOffset": 691,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass9_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass9_0::<RemoveCharacterValueEntryAsync>b__0(UselessCore.Model.Entries.CharacterValueEntry)": {
+          "Lines": {
+            "191": 4
+          },
+          "Branches": [
+            {
+              "Line": 191,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 191,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 191,
+              "Offset": 12,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 191,
+              "Offset": 26,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<RemoveCharacterValueEntryAsync>d__9": {
+        "System.Void UselessCore.Services.Entries.EntryService/<RemoveCharacterValueEntryAsync>d__9::MoveNext()": {
+          "Lines": {
+            "184": 4,
+            "185": 4,
+            "186": 4,
+            "188": 4,
+            "189": 2,
+            "192": 2,
+            "193": 1,
+            "195": 1,
+            "196": 1,
+            "197": 1,
+            "198": 1,
+            "199": 4
+          },
+          "Branches": [
+            {
+              "Line": 185,
+              "Offset": 140,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 185,
+              "Offset": 140,
+              "EndOffset": 210,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 186,
+              "Offset": 306,
+              "EndOffset": 308,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 186,
+              "Offset": 306,
+              "EndOffset": 378,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 188,
+              "Offset": 421,
+              "EndOffset": 423,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 188,
+              "Offset": 421,
+              "EndOffset": 434,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 188,
+              "Offset": 439,
+              "EndOffset": 441,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 188,
+              "Offset": 439,
+              "EndOffset": 448,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 192,
+              "Offset": 500,
+              "EndOffset": 502,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 192,
+              "Offset": 500,
+              "EndOffset": 509,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass10_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass10_0::<RemoveCharacterStringEntryAsync>b__0(UselessCore.Model.Entries.CharacterStringEntry)": {
+          "Lines": {
+            "209": 4
+          },
+          "Branches": [
+            {
+              "Line": 209,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 209,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 209,
+              "Offset": 12,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 209,
+              "Offset": 26,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<RemoveCharacterStringEntryAsync>d__10": {
+        "System.Void UselessCore.Services.Entries.EntryService/<RemoveCharacterStringEntryAsync>d__10::MoveNext()": {
+          "Lines": {
+            "202": 4,
+            "203": 4,
+            "204": 4,
+            "206": 4,
+            "207": 2,
+            "210": 2,
+            "211": 1,
+            "213": 1,
+            "214": 1,
+            "215": 1,
+            "216": 1,
+            "217": 1,
+            "218": 4
+          },
+          "Branches": [
+            {
+              "Line": 203,
+              "Offset": 140,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 203,
+              "Offset": 140,
+              "EndOffset": 210,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 204,
+              "Offset": 306,
+              "EndOffset": 308,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 204,
+              "Offset": 306,
+              "EndOffset": 378,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 206,
+              "Offset": 421,
+              "EndOffset": 423,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 206,
+              "Offset": 421,
+              "EndOffset": 434,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 206,
+              "Offset": 439,
+              "EndOffset": 441,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 206,
+              "Offset": 439,
+              "EndOffset": 448,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 210,
+              "Offset": 500,
+              "EndOffset": 502,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 210,
+              "Offset": 500,
+              "EndOffset": 509,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Entries.EntryService/<>c__DisplayClass11_0": {
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass11_0::<RemoveCharacterStringEntryVoteAsync>b__0(UselessCore.Model.Entries.CharacterStringEntry)": {
+          "Lines": {
+            "223": 7
+          },
+          "Branches": [
+            {
+              "Line": 223,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 223,
+              "Offset": 12,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 223,
+              "Offset": 258,
+              "EndOffset": 260,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 223,
+              "Offset": 258,
+              "EndOffset": 264,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Boolean UselessCore.Services.Entries.EntryService/<>c__DisplayClass11_0::<RemoveCharacterStringEntryVoteAsync>b__1(UselessCore.Model.Entries.EntryVote)": {
+          "Lines": {
+            "224": 6
+          },
+          "Branches": [
+            {
+              "Line": 224,
+              "Offset": 304,
+              "EndOffset": 306,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 224,
+              "Offset": 304,
+              "EndOffset": 310,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\SectionBuilder.cs": {
+      "UselessCore.Services.Entries.SectionBuilder": {
+        "System.Collections.Generic.List`1<UselessCore.Services.Entries.ISection> UselessCore.Services.Entries.SectionBuilder::GetResult()": {
+          "Lines": {
+            "30": 3,
+            "31": 3,
+            "32": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildMainTagSection()": {
+          "Lines": {
+            "35": 3,
+            "36": 3,
+            "37": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildTierSection()": {
+          "Lines": {
+            "40": 3,
+            "41": 3,
+            "42": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildTipsSection()": {
+          "Lines": {
+            "45": 3,
+            "46": 3,
+            "47": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildSimilarInGameSection()": {
+          "Lines": {
+            "50": 3,
+            "51": 3,
+            "52": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildSimilarInGenreSection()": {
+          "Lines": {
+            "55": 3,
+            "56": 3,
+            "57": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildCounteredBySection()": {
+          "Lines": {
+            "60": 3,
+            "61": 3,
+            "62": 3
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::BuildStrongAgainstSection()": {
+          "Lines": {
+            "65": 3,
+            "66": 3,
+            "67": 3
+          },
+          "Branches": []
+        },
+        "UselessCore.Services.Entries.Dtos.CharacterTagSectionDto UselessCore.Services.Entries.SectionBuilder::BuildTagSection(UselessCore.Model.Characters.Character,UselessCore.Enums.Entries.CharacterTagEntryType,System.String)": {
+          "Lines": {
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 3,
+            "75": 3,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 3,
+            "88": 3,
+            "91": 3,
+            "92": 3,
+            "93": 3,
+            "95": 0,
+            "99": 3,
+            "100": 3
+          },
+          "Branches": [
+            {
+              "Line": 71,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 95,
+              "EndOffset": 120,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 88,
+              "Offset": 159,
+              "EndOffset": 163,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 88,
+              "Offset": 159,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 110,
+              "EndOffset": 112,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 120,
+              "EndOffset": 122,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 120,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 110,
+              "EndOffset": 151,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto UselessCore.Services.Entries.SectionBuilder::BuilderCharacterLinkSection(UselessCore.Model.Characters.Character,UselessCore.Enums.Entries.CharacterLinkEntryType,System.Collections.Generic.IEnumerable`1<UselessCore.Services.Characters.Dtos.BaseCharacterDto>,System.String)": {
+          "Lines": {
+            "103": 12,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "117": 12,
+            "118": 12,
+            "119": 12,
+            "120": 12,
+            "121": 12,
+            "122": 12,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 12,
+            "134": 12,
+            "137": 3,
+            "138": 3,
+            "139": 3,
+            "141": 3,
+            "142": 3,
+            "143": 3,
+            "145": 3,
+            "146": 3,
+            "147": 3,
+            "149": 3,
+            "150": 3,
+            "151": 3,
+            "153": 0,
+            "156": 12,
+            "157": 12
+          },
+          "Branches": [
+            {
+              "Line": 104,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 104,
+              "Offset": 64,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            },
+            {
+              "Line": 115,
+              "Offset": 123,
+              "EndOffset": 125,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 9
+            },
+            {
+              "Line": 115,
+              "Offset": 123,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 134,
+              "Offset": 268,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 134,
+              "Offset": 268,
+              "EndOffset": 320,
+              "Path": 2,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 134,
+              "Offset": 268,
+              "EndOffset": 346,
+              "Path": 3,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 134,
+              "Offset": 268,
+              "EndOffset": 393,
+              "Path": 4,
+              "Ordinal": 8,
+              "Hits": 3
+            },
+            {
+              "Line": 134,
+              "Offset": 268,
+              "EndOffset": 440,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 102,
+              "EndOffset": 104,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 112,
+              "EndOffset": 114,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 112,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 102,
+              "EndOffset": 143,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 115,
+              "EndOffset": 117,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 115,
+              "EndOffset": 121,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 157,
+              "EndOffset": 163,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "UselessCore.Services.Entries.Dtos.CharacterValueSectionDto UselessCore.Services.Entries.SectionBuilder::BuildValueSection(UselessCore.Model.Characters.Character,UselessCore.Enums.Entries.CharacterValueEntryType,System.String)": {
+          "Lines": {
+            "160": 3,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "172": 3,
+            "173": 3,
+            "174": 3,
+            "175": 3,
+            "176": 3,
+            "177": 3,
+            "179": 3,
+            "182": 3,
+            "183": 3,
+            "184": 0,
+            "185": 3,
+            "187": 0,
+            "190": 3,
+            "191": 3
+          },
+          "Branches": [
+            {
+              "Line": 162,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 162,
+              "Offset": 58,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 162,
+              "Offset": 111,
+              "EndOffset": 113,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 162,
+              "Offset": 111,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 179,
+              "Offset": 201,
+              "EndOffset": 205,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 184,
+              "Offset": 286,
+              "EndOffset": 288,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 184,
+              "Offset": 286,
+              "EndOffset": 311,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 179,
+              "Offset": 201,
+              "EndOffset": 324,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 163,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 163,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 163,
+              "Offset": 78,
+              "EndOffset": 102,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 163,
+              "Offset": 68,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 184,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 184,
+              "Offset": 12,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String UselessCore.Services.Entries.SectionBuilder::GetValueName(System.Int32,UselessCore.Enums.Entries.CharacterValueEntryType)": {
+          "Lines": {
+            "194": 0,
+            "195": 0,
+            "198": 0,
+            "200": 0,
+            "202": 0
+          },
+          "Branches": [
+            {
+              "Line": 195,
+              "Offset": 6,
+              "EndOffset": 10,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 195,
+              "Offset": 6,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "UselessCore.Services.Entries.Dtos.CharacterStringSectionDto UselessCore.Services.Entries.SectionBuilder::BuildStringSection(UselessCore.Model.Characters.Character,UselessCore.Enums.Entries.CharacterStringEntryType,System.String)": {
+          "Lines": {
+            "205": 3,
+            "207": 0,
+            "208": 3,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "222": 3,
+            "223": 3,
+            "224": 3,
+            "225": 3,
+            "226": 3,
+            "227": 3,
+            "228": 3,
+            "230": 3,
+            "233": 3,
+            "234": 3,
+            "235": 3,
+            "237": 0,
+            "241": 3,
+            "242": 3
+          },
+          "Branches": [
+            {
+              "Line": 207,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 207,
+              "Offset": 67,
+              "EndOffset": 92,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 230,
+              "Offset": 163,
+              "EndOffset": 167,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 230,
+              "Offset": 163,
+              "EndOffset": 209,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 209,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 209,
+              "Offset": 48,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 209,
+              "Offset": 135,
+              "EndOffset": 137,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 209,
+              "Offset": 135,
+              "EndOffset": 159,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void UselessCore.Services.Entries.SectionBuilder::.ctor(UselessCore.Model.Characters.Character,System.Collections.Generic.List`1<UselessCore.Services.Characters.Dtos.BaseCharacterDto>,System.String)": {
+          "Lines": {
+            "17": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4,
+            "25": 4,
+            "26": 4,
+            "27": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\SectionBuilderFactory.cs": {
+      "UselessCore.Services.Entries.SectionBuilderFactory": {
+        "UselessCore.Services.Entries.ISectionBuilder UselessCore.Services.Entries.SectionBuilderFactory::GetSectionBuilder(UselessCore.Model.Characters.Character,System.Collections.Generic.List`1<UselessCore.Services.Characters.Dtos.BaseCharacterDto>,System.String)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Mappings\\EntryMappings.cs": {
+      "UselessCore.Services.Entries.Mappings.EntryMappings": {
+        "System.Void UselessCore.Services.Entries.Mappings.EntryMappings::.ctor()": {
+          "Lines": {
+            "12": 91,
+            "13": 91,
+            "14": 91
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterLinkDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterLinkDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterLinkDto::get_ID()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterLinkDto::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterLinkDto::get_GameName()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterLinkDto::get_GameId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterLinkDto::get_LinkCount()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean UselessCore.Services.Entries.Dtos.CharacterLinkDto::get_UserSelected()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterLinkSectionDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_CharacterId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_GameId()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.SectionType UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_Type()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_Title()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterLinkEntryType UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_LinkEntryType()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Services.Entries.Dtos.CharacterLinkDto> UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_Links()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Services.Entries.Dtos.CharacterLinkDto> UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_AvaliableCharacters()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterLinkSectionDto::get_Description()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterStringDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterStringDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterStringDto::get_ID()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterStringDto::get_Text()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterStringDto::get_CreatorDisplayName()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> UselessCore.Services.Entries.Dtos.CharacterStringDto::get_CreatorAvatarIcon()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterStringDto::get_ValueCount()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean UselessCore.Services.Entries.Dtos.CharacterStringDto::get_UserSelected()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean UselessCore.Services.Entries.Dtos.CharacterStringDto::get_UserCreated()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterStringSectionDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterStringSectionDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_CharacterId()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_GameId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.SectionType UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_Type()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_Title()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterStringEntryType UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_StringEntryType()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Services.Entries.Dtos.CharacterStringDto> UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_Values()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterStringSectionDto::get_Description()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterTagDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterTagDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterTagDto::get_ID()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterTagDto::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Tag.TagType UselessCore.Services.Entries.Dtos.CharacterTagDto::get_Type()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterTagDto::get_TagCount()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean UselessCore.Services.Entries.Dtos.CharacterTagDto::get_UserSelected()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 UselessCore.Services.Entries.Dtos.CharacterTagDto::get_Timestamp()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterTagSectionDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterTagSectionDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_CharacterId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_GameId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.SectionType UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_Type()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_Title()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_Description()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterTagEntryType UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_TagEntryType()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Services.Entries.Dtos.CharacterTagDto> UselessCore.Services.Entries.Dtos.CharacterTagSectionDto::get_Tags()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterValueDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterValueDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterValueDto::get_ID()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterValueDto::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterValueDto::get_ValueCount()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean UselessCore.Services.Entries.Dtos.CharacterValueDto::get_UserSelected()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Entries\\Dtos\\CharacterValueSectionDto.cs": {
+      "UselessCore.Services.Entries.Dtos.CharacterValueSectionDto": {
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_CharacterId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_GameId()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.SectionType UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_Type()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_Title()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterValueEntryType UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_ValueEntryType()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Services.Entries.Dtos.CharacterValueDto> UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_Values()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Entries.Dtos.CharacterValueSectionDto::get_Description()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Characters\\CharacterService.cs": {
+      "UselessCore.Services.Characters.CharacterService": {
+        "System.Void UselessCore.Services.Characters.CharacterService::.ctor(UselessCore.Model.UselessContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,AutoMapper.IMapper,UselessCore.Services.Entries.ISectionBuilderFactory)": {
+          "Lines": {
+            "26": 15,
+            "27": 15,
+            "28": 15,
+            "29": 15
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<AddAsync>d__2": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<AddAsync>d__2::MoveNext()": {
+          "Lines": {
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "40": 2,
+            "41": 1,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 94,
+              "EndOffset": 117,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 120,
+              "EndOffset": 122,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 120,
+              "EndOffset": 162,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<DeleteAsync>d__3": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<DeleteAsync>d__3::MoveNext()": {
+          "Lines": {
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "61": 1,
+            "62": 2
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 51,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 83,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 198,
+              "EndOffset": 203,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 54,
+              "Offset": 222,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 54,
+              "Offset": 222,
+              "EndOffset": 252,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 14,
+              "EndOffset": 355,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 198,
+              "EndOffset": 396,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<EditAsync>d__4": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<EditAsync>d__4::MoveNext()": {
+          "Lines": {
+            "65": 2,
+            "66": 2,
+            "67": 2,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "73": 1,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "79": 1,
+            "80": 1,
+            "81": 0,
+            "82": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "88": 1,
+            "89": 2
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 88,
+              "EndOffset": 158,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 67,
+              "Offset": 203,
+              "EndOffset": 208,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 290,
+              "EndOffset": 292,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 316,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 316,
+              "EndOffset": 322,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 356,
+              "EndOffset": 358,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 356,
+              "EndOffset": 377,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 290,
+              "EndOffset": 391,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 80,
+              "Offset": 403,
+              "EndOffset": 405,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 403,
+              "EndOffset": 426,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 80,
+              "Offset": 431,
+              "EndOffset": 433,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 431,
+              "EndOffset": 473,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 14,
+              "EndOffset": 577,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 203,
+              "EndOffset": 618,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<GetAllAsync>d__5": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<GetAllAsync>d__5::MoveNext()": {
+          "Lines": {
+            "92": 2,
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "97": 2,
+            "98": 2
+          },
+          "Branches": []
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<GetAllForGameAsync>d__6": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<GetAllForGameAsync>d__6::MoveNext()": {
+          "Lines": {
+            "101": 3,
+            "102": 3,
+            "103": 3,
+            "104": 2,
+            "105": 2,
+            "106": 2,
+            "107": 2,
+            "108": 2,
+            "109": 2,
+            "110": 2,
+            "112": 1,
+            "113": 3
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 102,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 136,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 103,
+              "Offset": 251,
+              "EndOffset": 256,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 101,
+              "Offset": 14,
+              "EndOffset": 770,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 251,
+              "EndOffset": 821,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<GetByIdAsync>d__7": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<GetByIdAsync>d__7::MoveNext()": {
+          "Lines": {
+            "116": 2,
+            "117": 2,
+            "118": 2,
+            "119": 2
+          },
+          "Branches": [
+            {
+              "Line": 117,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 117,
+              "Offset": 72,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 118,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 118,
+              "Offset": 180,
+              "EndOffset": 185,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "UselessCore.Services.Characters.CharacterService/<GetSectionsAsync>d__8": {
+        "System.Void UselessCore.Services.Characters.CharacterService/<GetSectionsAsync>d__8::MoveNext()": {
+          "Lines": {
+            "122": 2,
+            "123": 2,
+            "125": 2,
+            "126": 1,
+            "128": 1,
+            "129": 1,
+            "131": 1,
+            "133": 1,
+            "134": 1,
+            "135": 1,
+            "136": 1,
+            "137": 1,
+            "138": 1,
+            "139": 1,
+            "141": 1,
+            "142": 2
+          },
+          "Branches": [
+            {
+              "Line": 122,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 123,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 119,
+              "EndOffset": 189,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 125,
+              "Offset": 234,
+              "EndOffset": 236,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 125,
+              "Offset": 234,
+              "EndOffset": 243,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 14,
+              "EndOffset": 706,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Characters\\Mappings\\CharacterProfile.cs": {
+      "UselessCore.Services.Characters.Mappings.CharacterProfile": {
+        "System.Void UselessCore.Services.Characters.Mappings.CharacterProfile::.ctor()": {
+          "Lines": {
+            "14": 91,
+            "15": 91,
+            "16": 91,
+            "17": 91,
+            "18": 182,
+            "19": 182,
+            "20": 182,
+            "21": 182,
+            "22": 182,
+            "23": 91
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 17,
+              "Offset": 84,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 91
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Characters\\Dtos\\BaseCharacterDto.cs": {
+      "UselessCore.Services.Characters.Dtos.BaseCharacterDto": {
+        "System.Int32 UselessCore.Services.Characters.Dtos.BaseCharacterDto::get_Id()": {
+          "Lines": {
+            "9": 29
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Characters.Dtos.BaseCharacterDto::get_Name()": {
+          "Lines": {
+            "10": 31
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Services.Characters.Dtos.BaseCharacterDto::get_GameId()": {
+          "Lines": {
+            "11": 29
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Services.Characters.Dtos.BaseCharacterDto::get_GameName()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> UselessCore.Services.Characters.Dtos.BaseCharacterDto::get_IconImageId()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Services\\Characters\\Dtos\\CharacterDto.cs": {
+      "UselessCore.Services.Characters.Dtos.CharacterDto": {
+        "System.Int32 UselessCore.Services.Characters.Dtos.CharacterDto::get_UserCount()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.EntityStatus UselessCore.Services.Characters.Dtos.CharacterDto::get_Status()": {
+          "Lines": {
+            "12": 5
+          },
+          "Branches": []
+        },
+        "UselessCore.Services.Images.Dtos.ImageDto UselessCore.Services.Characters.Dtos.CharacterDto::get_IconImage()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Entity.cs": {
+      "UselessCore.Model.Entity": {
+        "System.Int32 UselessCore.Model.Entity::get_Id()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime UselessCore.Model.Entity::get_CreatedDate()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime UselessCore.Model.Entity::get_LastModified()": {
+          "Lines": {
+            "25": 179
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.Entity::.ctor()": {
+          "Lines": {
+            "11": 176,
+            "12": 176,
+            "13": 176,
+            "14": 176,
+            "15": 176
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\UselessContext.cs": {
+      "UselessCore.Model.UselessContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Games.Game> UselessCore.Model.UselessContext::get_Games()": {
+          "Lines": {
+            "19": 48
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Characters.Character> UselessCore.Model.UselessContext::get_Characters()": {
+          "Lines": {
+            "20": 148
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Entries.CharacterStringEntry> UselessCore.Model.UselessContext::get_StringEntries()": {
+          "Lines": {
+            "22": 30
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Entries.CharacterLinkEntry> UselessCore.Model.UselessContext::get_LinkEntries()": {
+          "Lines": {
+            "23": 24
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Entries.CharacterTagEntry> UselessCore.Model.UselessContext::get_TagEntries()": {
+          "Lines": {
+            "24": 24
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Entries.CharacterValueEntry> UselessCore.Model.UselessContext::get_ValueEntries()": {
+          "Lines": {
+            "25": 18
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Tags.Tag> UselessCore.Model.UselessContext::get_Tags()": {
+          "Lines": {
+            "27": 48
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Images.Image> UselessCore.Model.UselessContext::get_Images()": {
+          "Lines": {
+            "28": 19
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<UselessCore.Model.Users.User> UselessCore.Model.UselessContext::get_ApplicationUsers()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.UselessContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "33": 8,
+            "34": 8,
+            "35": 8
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.UselessContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "38": 1,
+            "39": 1,
+            "41": 1,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "46": 1,
+            "47": 2,
+            "48": 1,
+            "49": 2,
+            "51": 1,
+            "52": 2,
+            "53": 2,
+            "54": 2,
+            "55": 1
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 16,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 54,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 92,
+              "EndOffset": 94,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 92,
+              "EndOffset": 117,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void UselessCore.Model.UselessContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<UselessCore.Model.UselessContext>)": {
+          "Lines": {
+            "16": 8,
+            "17": 16
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Users\\Role.cs": {
+      "UselessCore.Model.Users.Role": {
+        "UselessCore.Enums.RoleType UselessCore.Model.Users.Role::get_Type()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Users\\User.cs": {
+      "UselessCore.Model.Users.User": {
+        "System.Nullable`1<System.Int32> UselessCore.Model.Users.User::get_AvatarIconId()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Model.Users.User::get_DisplayName()": {
+          "Lines": {
+            "8": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Tags\\Tag.cs": {
+      "UselessCore.Model.Tags.Tag": {
+        "System.String UselessCore.Model.Tags.Tag::get_Name()": {
+          "Lines": {
+            "9": 22
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Tag.TagType UselessCore.Model.Tags.Tag::get_Type()": {
+          "Lines": {
+            "10": 20
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.CharacterTagEntry> UselessCore.Model.Tags.Tag::get_TagEntries()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Images\\Image.cs": {
+      "UselessCore.Model.Images.Image": {
+        "System.Byte[] UselessCore.Model.Images.Image::get_File()": {
+          "Lines": {
+            "16": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Games\\Game.cs": {
+      "UselessCore.Model.Games.Game": {
+        "System.String UselessCore.Model.Games.Game::get_Name()": {
+          "Lines": {
+            "16": 65
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.EntityStatus UselessCore.Model.Games.Game::get_Status()": {
+          "Lines": {
+            "19": 57
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Images.Image UselessCore.Model.Games.Game::get_GameLogo()": {
+          "Lines": {
+            "21": 12
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Characters.Character> UselessCore.Model.Games.Game::get_Characters()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Model.Games.Game::get_ValueEntryTypesCsv()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterValueEntryType> UselessCore.Model.Games.Game::get_ValueEntryTypes()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.Games.Game::set_ValueEntryTypes(System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterValueEntryType>)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Model.Games.Game::get_StringEntryTypesCsv()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterStringEntryType> UselessCore.Model.Games.Game::get_StringEntryTypes()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.Games.Game::set_StringEntryTypes(System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterStringEntryType>)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Model.Games.Game::get_TagEntryTypesCsv()": {
+          "Lines": {
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterTagEntryType> UselessCore.Model.Games.Game::get_TagEntryTypes()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.Games.Game::set_TagEntryTypes(System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterTagEntryType>)": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Model.Games.Game::get_LinkEntryTypesCsv()": {
+          "Lines": {
+            "71": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterLinkEntryType> UselessCore.Model.Games.Game::get_LinkEntryTypes()": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessCore.Model.Games.Game::set_LinkEntryTypes(System.Collections.Generic.IEnumerable`1<UselessCore.Enums.Entries.CharacterLinkEntryType>)": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Entries\\CharacterLinkEntry.cs": {
+      "UselessCore.Model.Entries.CharacterLinkEntry": {
+        "UselessCore.Model.Users.User UselessCore.Model.Entries.CharacterLinkEntry::get_User()": {
+          "Lines": {
+            "12": 9
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Characters.Character UselessCore.Model.Entries.CharacterLinkEntry::get_Character()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Characters.Character UselessCore.Model.Entries.CharacterLinkEntry::get_LinkedCharacter()": {
+          "Lines": {
+            "18": 9
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.EntryVote> UselessCore.Model.Entries.CharacterLinkEntry::get_Votes()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterLinkEntryType UselessCore.Model.Entries.CharacterLinkEntry::get_Type()": {
+          "Lines": {
+            "23": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Entries\\CharacterStringEntry.cs": {
+      "UselessCore.Model.Entries.CharacterStringEntry": {
+        "UselessCore.Model.Users.User UselessCore.Model.Entries.CharacterStringEntry::get_User()": {
+          "Lines": {
+            "12": 13
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Characters.Character UselessCore.Model.Entries.CharacterStringEntry::get_Character()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Model.Entries.CharacterStringEntry::get_Text()": {
+          "Lines": {
+            "18": 12
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterStringEntryType UselessCore.Model.Entries.CharacterStringEntry::get_Type()": {
+          "Lines": {
+            "21": 22
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.EntryVote> UselessCore.Model.Entries.CharacterStringEntry::get_Votes()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Entries\\CharacterTagEntry.cs": {
+      "UselessCore.Model.Entries.CharacterTagEntry": {
+        "UselessCore.Model.Users.User UselessCore.Model.Entries.CharacterTagEntry::get_User()": {
+          "Lines": {
+            "13": 9
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Characters.Character UselessCore.Model.Entries.CharacterTagEntry::get_Character()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Tags.Tag UselessCore.Model.Entries.CharacterTagEntry::get_LinkedTag()": {
+          "Lines": {
+            "19": 9
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterTagEntryType UselessCore.Model.Entries.CharacterTagEntry::get_Type()": {
+          "Lines": {
+            "22": 9
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.EntryVote> UselessCore.Model.Entries.CharacterTagEntry::get_Votes()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Entries\\CharacterValueEntry.cs": {
+      "UselessCore.Model.Entries.CharacterValueEntry": {
+        "UselessCore.Model.Users.User UselessCore.Model.Entries.CharacterValueEntry::get_User()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Characters.Character UselessCore.Model.Entries.CharacterValueEntry::get_Character()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Model.Entries.CharacterValueEntry::get_Value()": {
+          "Lines": {
+            "18": 8
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.Entries.CharacterValueEntryType UselessCore.Model.Entries.CharacterValueEntry::get_Type()": {
+          "Lines": {
+            "21": 9
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.EntryVote> UselessCore.Model.Entries.CharacterValueEntry::get_Votes()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Entries\\EntryVote.cs": {
+      "UselessCore.Model.Entries.EntryVote": {
+        "UselessCore.Model.Users.User UselessCore.Model.Entries.EntryVote::get_User()": {
+          "Lines": {
+            "9": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Model\\Characters\\Character.cs": {
+      "UselessCore.Model.Characters.Character": {
+        "System.String UselessCore.Model.Characters.Character::get_Name()": {
+          "Lines": {
+            "14": 78
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Images.Image UselessCore.Model.Characters.Character::get_IconImage()": {
+          "Lines": {
+            "16": 15
+          },
+          "Branches": []
+        },
+        "UselessCore.Model.Games.Game UselessCore.Model.Characters.Character::get_Game()": {
+          "Lines": {
+            "19": 76
+          },
+          "Branches": []
+        },
+        "System.Int32 UselessCore.Model.Characters.Character::get_GameId()": {
+          "Lines": {
+            "22": 29
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.EntityStatus UselessCore.Model.Characters.Character::get_Status()": {
+          "Lines": {
+            "25": 56
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.CharacterTagEntry> UselessCore.Model.Characters.Character::get_TagEntries()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.CharacterLinkEntry> UselessCore.Model.Characters.Character::get_LinkEntries()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.CharacterValueEntry> UselessCore.Model.Characters.Character::get_ValueEntries()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<UselessCore.Model.Entries.CharacterStringEntry> UselessCore.Model.Characters.Character::get_StringEntries()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Extensions\\ServiceCollectionExtensions.cs": {
+      "UselessCore.Extensions.ServiceCollectionExtensions": {
+        "System.Void UselessCore.Extensions.ServiceCollectionExtensions::AddCoreServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Enums\\EnumDto.cs": {
+      "UselessCore.Enums.EnumDto": {
+        "System.Int32 UselessCore.Enums.EnumDto::get_ID()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String UselessCore.Enums.EnumDto::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessCore\\Enums\\EnumExtensions.cs": {
+      "UselessCore.Enums.EnumExtensions": {
+        "System.Collections.Generic.IEnumerable`1<TEnum> UselessCore.Enums.EnumExtensions::EnumsFromCSV(System.String)": {
+          "Lines": {
+            "15": 3,
+            "16": 3,
+            "17": 1,
+            "19": 12,
+            "20": 2,
+            "22": 4,
+            "23": 3
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 7,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 22,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 97,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.String UselessCore.Enums.EnumExtensions::CSVFromEnums(System.Collections.Generic.IEnumerable`1<TEnum>)": {
+          "Lines": {
+            "27": 2,
+            "28": 4,
+            "29": 2
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 10,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.String UselessCore.Enums.EnumExtensions::GetDisplayName(System.Enum)": {
+          "Lines": {
+            "32": 7,
+            "33": 7,
+            "34": 7,
+            "35": 7
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.String UselessCore.Enums.EnumExtensions::GetDescription(System.Enum)": {
+          "Lines": {
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "41": 2
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 9,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.ComponentModel.DataAnnotations.DisplayAttribute UselessCore.Enums.EnumExtensions::GetDisplayAttribute(System.Object)": {
+          "Lines": {
+            "60": 9,
+            "61": 9,
+            "62": 9,
+            "63": 0,
+            "64": 0,
+            "68": 9,
+            "69": 9,
+            "70": 9
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 19,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            },
+            {
+              "Line": 69,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 9
+            },
+            {
+              "Line": 69,
+              "Offset": 59,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "UselessCore.Enums.EnumExtensions/<GetListForEnum>d__4`1": {
+        "System.Boolean UselessCore.Enums.EnumExtensions/<GetListForEnum>d__4`1::MoveNext()": {
+          "Lines": {
+            "45": 1,
+            "46": 13,
+            "47": 5,
+            "48": 5,
+            "49": 5,
+            "50": 5,
+            "51": 5,
+            "52": 5,
+            "53": 5,
+            "54": 5,
+            "55": 5,
+            "56": 1
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 219,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 45,
+              "Offset": 14,
+              "EndOffset": 187,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 46,
+              "Offset": 219,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "UselessTestingCore.dll": {
+    "C:\\Projects\\UselessWebsite\\UselessTestingCore\\Mocks\\Identity\\FakeRoleManager.cs": {
+      "UselessTestingCore.Mocks.Identity.FakeRoleManager": {
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.IdentityResult> UselessTestingCore.Mocks.Identity.FakeRoleManager::CreateAsync(UselessCore.Model.Users.Role)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Boolean> UselessTestingCore.Mocks.Identity.FakeRoleManager::RoleExistsAsync(System.String)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessTestingCore.Mocks.Identity.FakeRoleManager::.ctor()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessTestingCore\\Mocks\\Identity\\FakeSignInManager.cs": {
+      "UselessTestingCore.Mocks.Identity.FakeSignInManager": {
+        "System.Boolean UselessTestingCore.Mocks.Identity.FakeSignInManager::IsSignedIn(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task UselessTestingCore.Mocks.Identity.FakeSignInManager::SignOutAsync()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.SignInResult> UselessTestingCore.Mocks.Identity.FakeSignInManager::PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void UselessTestingCore.Mocks.Identity.FakeSignInManager::.ctor()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Projects\\UselessWebsite\\UselessTestingCore\\Mocks\\Identity\\FakeUserManager.cs": {
+      "UselessTestingCore.Mocks.Identity.FakeUserManager": {
+        "UselessCore.Model.Users.User UselessTestingCore.Mocks.Identity.FakeUserManager::get_CurrentUser()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "UselessCore.Enums.RoleType UselessTestingCore.Mocks.Identity.FakeUserManager::get_CurrentRole()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.IdentityResult> UselessTestingCore.Mocks.Identity.FakeUserManager::CreateAsync(UselessCore.Model.Users.User,System.String)": {
+          "Lines": {
+            "35": 1,
+            "36": 1,
+            "37": 1
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<UselessCore.Model.Users.User> UselessTestingCore.Mocks.Identity.FakeUserManager::GetUserAsync(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Boolean> UselessTestingCore.Mocks.Identity.FakeUserManager::IsInRoleAsync(UselessCore.Model.Users.User,System.String)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.IdentityResult> UselessTestingCore.Mocks.Identity.FakeUserManager::AddToRoleAsync(UselessCore.Model.Users.User,System.String)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.String> UselessTestingCore.Mocks.Identity.FakeUserManager::GenerateEmailConfirmationTokenAsync(UselessCore.Model.Users.User)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<UselessCore.Model.Users.User> UselessTestingCore.Mocks.Identity.FakeUserManager::FindByNameAsync(System.String)": {
+          "Lines": {
+            "60": 5,
+            "61": 5,
+            "62": 3,
+            "64": 2,
+            "65": 5
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 61,
+              "Offset": 20,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<UselessCore.Model.Users.User> UselessTestingCore.Mocks.Identity.FakeUserManager::FindByIdAsync(System.String)": {
+          "Lines": {
+            "68": 10,
+            "69": 10,
+            "70": 6,
+            "72": 4,
+            "73": 10
+          },
+          "Branches": [
+            {
+              "Line": 69,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 69,
+              "Offset": 20,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.IdentityResult> UselessTestingCore.Mocks.Identity.FakeUserManager::UpdateAsync(UselessCore.Model.Users.User)": {
+          "Lines": {
+            "76": 1,
+            "77": 1,
+            "78": 1
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IList`1<UselessCore.Model.Users.User>> UselessTestingCore.Mocks.Identity.FakeUserManager::GetUsersInRoleAsync(System.String)": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Boolean> UselessTestingCore.Mocks.Identity.FakeUserManager::CheckPasswordAsync(UselessCore.Model.Users.User,System.String)": {
+          "Lines": {
+            "87": 2,
+            "88": 2,
+            "89": 2
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.IdentityResult> UselessTestingCore.Mocks.Identity.FakeUserManager::DeleteAsync(UselessCore.Model.Users.User)": {
+          "Lines": {
+            "92": 1,
+            "93": 1,
+            "94": 1
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<Microsoft.AspNetCore.Identity.IdentityResult> UselessTestingCore.Mocks.Identity.FakeUserManager::ChangePasswordAsync(UselessCore.Model.Users.User,System.String,System.String)": {
+          "Lines": {
+            "97": 1,
+            "98": 1,
+            "99": 1
+          },
+          "Branches": []
+        },
+        "System.Void UselessTestingCore.Mocks.Identity.FakeUserManager::.ctor()": {
+          "Lines": {
+            "22": 17,
+            "23": 17,
+            "24": 17,
+            "25": 17,
+            "26": 17,
+            "27": 17,
+            "28": 17,
+            "29": 17,
+            "30": 17,
+            "31": 17,
+            "32": 17
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

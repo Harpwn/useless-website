@@ -1,0 +1,123 @@
+﻿@using UselessCore.Enums.Entries
+
+@model UselessCMS.Models.Games.GameEditViewModel
+
+<div class="col-12">
+    <div class="card">
+        <div class="card-header">
+            <h3>@(Model.Id.HasValue ? "Edit Game" : "Add Game") <span class="float-right"><i class="fas fa-gamepad"></i></span></h3>
+        </div>
+        <div class="card-body">
+            <form asp-controller="Game" asp-action="Edit" enctype="multipart/form-data" method="post" role="form">
+
+                <input asp-for="Id" type="hidden" />
+                <input asp-for="HasLogo" type="hidden" />
+
+                <partial name="_ValidationSummary" />
+
+                <div class="form-group">
+                    <label asp-for="Status"></label>
+                    <select asp-for="Status" class="form-control">
+                        @foreach (var status in (EntityStatus[])Enum.GetValues(typeof(EntityStatus)))
+                        {
+                            <option value="@status">@status.ToString()</option>
+                        }
+                    </select>
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="Status"></span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" type="text" class="form-control" />
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="HasSite"></label>
+                    <input asp-for="HasSite" type="checkbox" class="form-control" />
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="HasSite"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="GameKey"></label>
+                    <input asp-for="GameKey" type="text" class="form-control" />
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="GameKey"></span>
+                    </div>
+                </div>
+
+                @if (Model.HasLogo)
+                {
+                    <div class="form-group">
+                        <label>Current Logo</label><br />
+                        <span><img style="max-width: 100%" src="@Url.Action("GameLogo", "Game", new { id = Model.Id.Value })" /></span>
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label asp-for="GameLogo"></label>
+                    <input asp-for="GameLogo" type="file" class="form-control-file">
+                    <small class="form-text text-muted">Must be JPEG or PNG and < 1MB.</small>
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="GameLogo"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TagEntryTypes"></label>
+                    <select asp-for="TagEntryTypes" class="form-control">
+                        @foreach (CharacterTagEntryType type in (CharacterTagEntryType[])Enum.GetValues(typeof(CharacterTagEntryType)))
+                        {
+                            <option value="@type">@type.GetDisplayName()</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="LinkEntryTypes"></label>
+                    <select asp-for="LinkEntryTypes" class="form-control">
+                        @foreach (CharacterLinkEntryType type in (CharacterLinkEntryType[])Enum.GetValues(typeof(CharacterLinkEntryType)))
+                        {
+                            <option value="@type">@type.GetDisplayName()</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ValueEntryTypes"></label>
+                    <select asp-for="ValueEntryTypes" class="form-control">
+                        @foreach (CharacterValueEntryType type in (CharacterValueEntryType[])Enum.GetValues(typeof(CharacterValueEntryType)))
+                        {
+                            <option value="@type">@type.GetDisplayName()</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="StringEntryTypes"></label>
+                    <select asp-for="StringEntryTypes" class="form-control">
+                        @foreach (CharacterStringEntryType type in (CharacterStringEntryType[])Enum.GetValues(typeof(CharacterStringEntryType)))
+                        {
+                            <option value="@type">@type.GetDisplayName()</option>
+                        }
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="btn-group btn-group-lg">
+                        <button type="submit" class="btn btn-success"><i class="fas fa-fw fa-check"></i></button>
+                        <a class="btn btn-danger" href="@Url.Action("Index","Game")"><i class="fas fa-fw fa-times"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

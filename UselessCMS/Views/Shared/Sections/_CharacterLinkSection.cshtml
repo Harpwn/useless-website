@@ -1,0 +1,45 @@
+﻿@model UselessCMS.Models.Sections.CharacterLinkSectionViewModel
+
+<div class="card">
+    <div class="card-header">
+        @Model.Title
+        <form asp-controller="Character" asp-action="AddCharacterLinkEntry" enctype="multipart/form-data" method="get" role="form">
+            <input name="entryType" value="@Model.LinkType" type="hidden" />
+            <input name="id" value="@Model.CharacterId" type="hidden" />
+
+            <select name="linkId" class="form-control">
+                @foreach (var link in Model.AvaliableCharacters)
+                {
+                    <option value="@link.Id">@link.Name</option>
+                }
+            </select>
+            <button type="submit" class="btn btn-success"><i class="fas fa-fw fa-check"></i></button>
+
+        </form>
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach (var link in Model.Links)
+        {
+            <li class="list-group-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-4">
+                            <img height="50px" width="50px" src="@Url.Action("IconImage","Character", new { id = link.ID })" />
+                        </div>
+                        <div class="col-4">
+                            @link.Name
+                        </div>
+                        <div class="col-4">
+                            <span class="badge @(link.UserHasSelected ? "badge-primary" : "badge-secondary") float-right">@link.LinkCount</span>
+                            @if (link.UserHasSelected)
+                            {
+                                <a href="@Url.Action("RemoveCharacterLinkEntry","Character", new { entryType=Model.LinkType, id=Model.CharacterId, linkId=link.ID })"><i class="fas fa-times-circle fa-fw"></i></a>
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</div>

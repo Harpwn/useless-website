@@ -1,0 +1,65 @@
+﻿@model UselessCMS.Models.Characters.CharacterEditViewModel
+
+<div class="col-12">
+    <div class="card">
+        <div class="card-header">
+            <h3>@(Model.Id.HasValue ? "Edit Character" : "Add Character") <span class="float-right"><i class="fas fa-user-ninja"></i><i class="fas fa-user-astronaut"></i><i class="fas fa-user-nurse"></i></span></h3>
+        </div>
+        <div class="card-body">
+            <form asp-controller="Character" asp-action="Edit" enctype="multipart/form-data" method="post" role="form">
+
+                <input asp-for="Id" type="hidden" />
+                <input asp-for="HasIcon" type="hidden" />
+                <input asp-for="GameId" type="hidden" />
+
+                <partial name="_ValidationSummary" />
+
+                <div class="form-group">
+                    <label asp-for="Status"></label>
+                    <select asp-for="Status" class="form-control">
+                        @foreach (var status in (EntityStatus[])Enum.GetValues(typeof(EntityStatus)))
+                        {
+                            <option value="@status">@status.ToString()</option>
+                        }
+                    </select>
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="Status"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" type="text" class="form-control" />
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                </div>
+
+                @if (Model.HasIcon)
+                {
+                    <div class="form-group">
+                        <label>Current Icon Image</label><br />
+                        <span><img src="@Url.Action("IconImage", "Character", new { id = Model.Id.Value })" /></span>
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label asp-for="IconImage"></label>
+                    <input asp-for="IconImage" type="file" class="form-control-file">
+                    <small class="form-text text-muted">Must be JPEG or PNG and < 1MB.</small>
+                    <div class="invalid-feedback" style="display:block;">
+                        <span asp-validation-for="IconImage"></span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="btn-group btn-group-lg">
+                        <button type="submit" class="btn btn-success"><i class="fas fa-fw fa-check"></i></button>
+                        <a class="btn btn-danger" href="@Url.Action("ListByGame","Character", new { id = Model.GameId })"><i class="fas fa-fw fa-times"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

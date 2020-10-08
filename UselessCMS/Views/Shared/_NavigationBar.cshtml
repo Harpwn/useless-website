@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <a class="navbar-brand" href="@Url.Action("Index","Home")">
+        <i class="fa-2x fas fa-tools d-inline-block align-top"></i>
+        <span class="lead" style="font-size: 24px;">Useless CMS</span>
+    </a>
+
+    <ul class="navbar-nav mr-auto">
+
+    </ul>
+
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item my-auto text-white">
+                <a class="nav-link nav-link border-0 bg-transparent" href="@Url.Action("Logout","Account")">Log Out</a>
+            </li>
+        </ul>
+    }
+    else
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a class="nav-link nav-link border-0 bg-transparent" href="@Url.Action("Login","Account")">Login</a>
+            </li>
+            <li>
+                <a class="nav-link nav-link border-0 bg-transparent" href="@Url.Action("Register","Account")">Register</a>
+            </li>
+        </ul>
+    }
+</nav>

@@ -1,0 +1,67 @@
+﻿@model UselessCMS.Models.Roles.RolesPageViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h4 class="display-4 mb-4">Role Manager <span class="float-right"><i class="fas fa-users"></i></span></h4>
+        </div>
+    </div>
+
+    @foreach (var role in Model.UserRoles)
+    {
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h4 class="lead">
+                            @role.Key.ToString()
+                            <span class="float-right">
+                                <a class="btn btn-sm btn-success" data-toggle="collapse" href="@("#collapse" + role.Key)" aria-expanded="false" aria-controls="@("#collapse" + role.Key)"><i class="fas fa-plus"></i> <i class="fas fa-user"></i></a>
+                            </span>
+                        </h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        @if (role.Value.Any())
+                        {
+                            @foreach (var user in role.Value)
+                            {
+                                <li class="list-group-item">
+                                    <i class="fas fa-user"></i> @user.UserName
+                                    @if (user.UserName != "SuperAdmin")
+                                    {
+                                        <span class="float-right">
+                                            <a class="btn btn-sm btn-danger" href="@Url.Action("RemoveRoleFromUser", "Role", new { userId = user.Id, role = role.Key.ToString() })"><i class="fas fa-trash"></i></a>
+                                        </span>
+                                    }
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="list-group-item">No users in this role.</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row collapse" id="@("collapse" + role.Key)">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <form asp-controller="Role" asp-action="AddRoleToUser" method="get" class="form-inline" role="form">
+                            <input type="hidden" id="@("role" + role.Key)" name="role" value="@role.Key" />
+                            <div class="form-group">
+                                <label for="@("#email" + role.Key)">Email</label>
+                                <input required type="email" id="@("email" + role.Key)" name="userName" class="form-control mx-3" aria-describedby="@("#emailHelp" + role.Key)">
+                                <small id="@("emailHelp" + role.Key)" class="text-muted mx-3">
+                                    Nothing will happen if user is not found.
+                                </small>
+                            </div>
+                                <button type="submit" class="btn btn-primary mb-2 ml-auto">Add Role</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

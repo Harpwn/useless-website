@@ -1,0 +1,37 @@
+﻿
+@model UselessCMS.Models.Home.HomePageViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        @if (Model.Role == RoleType.SuperAdministrator)
+        {
+            <div class="col-6">
+                <a href="@Url.Action("Index", "Role")" class="w-100 btn btn-outline-dark mb-4">
+                    <span class="display-4">
+                        <i class="fas fa-users"></i> Roles
+                    </span>
+                </a>
+            </div>
+        }
+        <div class="col-6">
+            <a href="@Url.Action("Index", "Game")" class="w-100 btn btn-outline-dark mb-4">
+                <span class="display-4">
+                    <i class="fas fa-gamepad"></i> Games
+                </span>
+            </a>
+        </div>
+        <div class="col-6">
+            <a href="@Url.Action("Index", "Tag")" class="w-100 btn btn-outline-dark mb-4">
+                <span class="display-4">
+                    <i class="fas fa-tags"></i> Tags
+                </span>
+            </a>
+        </div>
+    </div>
+    </div>
+
+

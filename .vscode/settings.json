@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "useless-website\\build",
+    "appService.defaultWebAppToDeploy": "/subscriptions/77d35a73-8fb0-42de-aae7-98dfa5e2e9e3/resourceGroups/this-website-is-useless/providers/Microsoft.Web/sites/this-website-is-useless"
+}

@@ -1,0 +1,11 @@
+@if (ViewData.ModelState.ContainsKey("") && ViewData.ModelState[""].Errors.Any())
+{
+    <div class="form-group">
+        <ul class="list-group">
+            @foreach (var error in ViewData.ModelState[""].Errors)
+            {
+                <li class="list-group-item list-group-item-danger">@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}

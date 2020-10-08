@@ -1,0 +1,50 @@
+﻿@model UselessCMS.Models.Games.GamesPageViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h4 class="display-4 mb-4">Game Manager <span class="float-right"><i class="fas fa-gamepad"></i></span></h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <a href="@Url.Action("Add","Game")" class="btn btn-success mb-4"><i class="fas fa-plus"></i> <i class="fas fa-gamepad"></i></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Status</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var game in Model.Games)
+                    {
+                        <tr>
+                            <td><img height="50px" width="50px" src="@Url.Action("GameLogo","Game", new { id = game.Id })" /></td>
+                            <td>@game.Id</td>
+                            <td>@game.Name</td>
+                            <td>@game.Status</td>
+                            <td>
+                                <div class="float-right btn-group">
+                                    <a class="float-right btn btn-success" title="Characters" href="@Url.Action("ListByGame","Character", new { id = game.Id })"><i class="fas fa-user-ninja"></i><i class="fas fa-user-astronaut"></i><i class="fas fa-user-nurse"></i></a>
+                                    <a class="confirmation float-right btn btn-danger" title="Delete" href="@Url.Action("Delete","Game", new { id = game.Id })"><i class="fas fa-fw fa-trash"></i></a>
+                                    <a class="float-right btn btn-info" title="Edit" href="@Url.Action("Edit","Game", new { id = game.Id })"><i class="fas fa-fw fa-pen"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

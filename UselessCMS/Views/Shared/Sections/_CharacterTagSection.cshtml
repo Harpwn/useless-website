@@ -1,0 +1,24 @@
+﻿@model UselessCMS.Models.Sections.CharacterTagSectionViewModel
+
+<div class="card">
+    <div class="card-header">
+        @Model.Title
+        <form asp-controller="Character" asp-action="AddTagEntry" enctype="multipart/form-data" method="get" role="form">
+            <input name="entryType" value="@Model.TagEntryType" type="hidden" />
+            <input name="id" value="@Model.CharacterId" type="hidden" />
+            <input name="tagName" type="text" />
+            <button type="submit" class="btn btn-success"><i class="fas fa-fw fa-check"></i></button>
+        </form>
+    </div>
+    <div class="card-body">
+        <h4 class="card-text">
+            @foreach (var tag in Model.Tags)
+            {
+                <a href="@(tag.UserHasSelected 
+                    ? Url.Action("RemoveTagEntry","Character", new { entryType=Model.TagEntryType, id=Model.CharacterId, tagId=tag.ID  }) 
+                    : Url.Action("AddTagEntry","Character", new { entryType=Model.TagEntryType, id=Model.CharacterId, tagName=tag.Name  }))"
+                   class="badge @(tag.UserHasSelected ? "badge-primary" : "badge-secondary")">@tag.Name +@tag.TagCount</a>
+            }
+        </h4>
+    </div>
+</div>

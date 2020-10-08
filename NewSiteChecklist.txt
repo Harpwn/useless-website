@@ -1,0 +1,36 @@
+MA - XXX X
+WW  -XXX X
+LL - XXX X
+D2 - XXX X
+BR - XXX X
+BE - XXX X
+OW - XXX X
+PA - XXX X
+SM - XXX X
+VG - XXX X
+VL - XXX X
+AL - XXX X 
+
+
+x1 = deployed to storage account and visible
+x2 = visible from CDN endpoint
+x3 = visible from custom domain
+x4 = https redirect working
+
+1. Full size logo
+2. Create in CMS, and live
+3. Public folder Create
+4. Public folder Icon
+5. Sitemap js entry
+6. Entry JS & Theme
+7. config overrides js entry
+
+8. storage account useless{{GAMEKEY}}
+9. storage account static website, entry/error = {{GAMEKEY}}.html (copy the url)
+10. Google domains dns entry
+10. cdn endpoint
+11. cdn endpoint set custom domain and https
+12. cdn manage rule engine entry (maybe edit in xml next time)
+
+13. Update release pipeline copy files
+14. Update release pipeline purge cdn

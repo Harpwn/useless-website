@@ -1,0 +1,40 @@
+﻿@model UselessCMS.Models.Characters.CharacterPageViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <h5 class="card-header">@Model.Character.Name (@Model.Character.GameName) <span class="float-right"><img height="50px" width="50px" src="@Url.Action("IconImage","Character", new { id = Model.Character.Id })" /></span></h5>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var sec in Model.Sections)
+        {
+
+            @switch (sec.Type)
+            {
+                case SectionType.Character:
+                    <div class="col-6 mb-2">
+                        <partial name="Sections/_CharacterLinkSection" model="sec" />
+                    </div>
+                    break;
+                case SectionType.Tag:
+                    <div class="col-12 mb-2">
+                        <partial name="Sections/_CharacterTagSection" model="sec" />
+                    </div>
+                    break;
+                case SectionType.Value:
+                    <div class="col-12 mb-2">
+                        <partial name="Sections/_CharacterValueSection" model="sec" />
+                    </div>
+                    break;
+                case SectionType.String:
+                    <div class="col-12 mb-2">
+                        <partial name="Sections/_CharacterStringSection" model="sec" />
+                    </div>
+                    break;
+            }
+        }
+    </div>
+</div>

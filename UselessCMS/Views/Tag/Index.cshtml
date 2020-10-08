@@ -1,0 +1,51 @@
+﻿
+@model UselessCMS.Models.Tags.TagsPageViewModel
+
+@{
+    ViewData["Title"] = "Tags";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h4 class="display-4 mb-4">Tag Manager <span class="float-right"><i class="fas fa-tags"></i></span></h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <partial name="_AddTagForm" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped table-sm">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var tag in Model.Tags)
+                    {
+                        <tr>
+                            <td>@tag.Id</td>
+                            <td><h4><span class="badge badge-secondary">@tag.Name</span></h4></td>
+                            <td>@tag.Type</td>
+                            <td>
+                                <div class="float-right btn-group">
+                                    <a class="confirmation float-right btn btn-danger" title="Delete" href="@Url.Action("Delete","Tag", new { id = tag.Id })"><i class="fas fa-fw fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
