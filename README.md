@@ -13,3 +13,5 @@
   <li><a href="https://battlerite.useless.wiki">Battlerite</a></li>
   <li><a href="https://apex.useless.wiki">Apex Legends</a></li>
 </ul>
+
+<p>This website is no longer active, and this repos history has been purged.</p>
